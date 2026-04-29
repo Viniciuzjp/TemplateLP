@@ -81,7 +81,7 @@ export const Menu = () => {
                     {product.name}
                   </Text>
 
-                  <Text className="text-gray-400" variant="bodySm">
+                  <Text className="text-neutral-800" variant="bodySm">
                     {product.ingredients}
                   </Text>
                 </div>

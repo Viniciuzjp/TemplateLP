@@ -6,9 +6,9 @@ export const Typography = {
   h2: "text-4xl font-extrabold leading-snug",
   h3: "text-3xl font-bold leading-snug",
 
-  body: "font-extralight leading-relaxed",
+  body: "font-extralight leading-relaxed text-neutral-800",
   bodySm: "text-sm font-extralight leading-relaxed",
-  bodyLg: "font-extralight text-xl leading-relaxed text-gray-400",
+  bodyLg: "font-extralight text-xl leading-relaxed text-neutral-800",
 
   label: "text-sm font-medium",
   caption: "text-xs text-gray-500",

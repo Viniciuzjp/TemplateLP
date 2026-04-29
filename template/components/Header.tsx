@@ -29,22 +29,22 @@ export const Header = () => {
       >
         <div className="flex items-center gap-2 md:gap-6 max-sm:text-xs">
           <Link href="#sobre">
-            <Text className="text-gray-300 hover:text-white transition">
+            <Text className="hover:text-white transition">
               Sobre
             </Text>
           </Link>
           <Link href="#cardapio">
-            <Text className="text-gray-300 hover:text-white transition">
+            <Text className="hover:text-white transition">
               Cardápio
             </Text>
           </Link>
           <Link href="#comentarios">
-            <Text className="text-gray-300 hover:text-white transition">
+            <Text className="hover:text-white transition">
               Comentários
             </Text>
           </Link>
           <Link href="#localizacao">
-            <Text className="text-gray-300 hover:text-white transition">
+            <Text className="hover:text-white transition">
               Localização
             </Text>
           </Link>

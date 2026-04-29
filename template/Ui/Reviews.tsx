@@ -14,7 +14,7 @@ export default function Reviews() {
           <Text variant="h2">
             Comentários
           </Text>
-          <Text variant="bodyLg" className="text-gray-400">
+          <Text variant="bodyLg">
             Não é só sabor, é experiência — e eles comprovam.
           </Text>
         </div>
@@ -32,7 +32,7 @@ export default function Reviews() {
                     <Text variant="body">
                       {review.name}
                     </Text>
-                    <Text variant="bodySm" className="text-gray-400">
+                    <Text variant="bodySm">
                       {review.time}
                     </Text>
                   </div>
@@ -45,7 +45,7 @@ export default function Reviews() {
                 <div className="flex flex-col gap-3 flex-1">
                   <FormatQuoteIcon fontSize="large" className=" dark:text-(--color)" />
 
-                  <Text variant="body" className="text-gray-300">
+                  <Text variant="body">
                     {review.comment}
                   </Text>
                 </div>

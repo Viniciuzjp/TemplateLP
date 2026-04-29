@@ -16,7 +16,7 @@ export function Location() {
             <Text variant="h2">
               Localização
             </Text>
-            <Text variant="bodyLg" className="text-gray-400 max-w-md">
+            <Text variant="bodyLg">
               Venha nos visitar e experimentar o melhor hambúrguer da região.
             </Text>
           </div>
@@ -25,7 +25,7 @@ export function Location() {
             <div className="flex flex-col gap-6">
               <div className="group flex flex-col gap-3 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 transition hover:bg-white/10 hover:scale-[1.01]">
 
-                <Text variant="bodyLg" className="text-gray-400 text-sm">
+                <Text variant="bodyLg">
                   Rua Exemplo, 123 <br />
                   Bragança Paulista - SP
                 </Text>
@@ -35,7 +35,7 @@ export function Location() {
                   target="_blank"
                   className="text-sm text-primary hover:underline mt-2"
                 >
-                 <Text >Abrir no Google Maps →</Text>
+                 <Text>Abrir no Google Maps →</Text>
                 </Link>
               </div>
 
@@ -49,7 +49,7 @@ export function Location() {
                   ].map(([day, time]) => (
                     <div
                       key={day}
-                      className="flex justify-between text-gray-300 dark:text-neutral-700"
+                      className="flex justify-between"
                     >
                       <Text variant="bodyLg">{day}</Text>
                       <Text variant="bodyLg">{time}</Text>

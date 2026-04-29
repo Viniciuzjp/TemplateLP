@@ -11,7 +11,7 @@ export default function Reviews() {
     <Section spacing="lg">
       <div id="comentarios" className="w-full max-w-6xl mx-auto flex flex-col gap-10 mb-30">
         <div className="flex flex-col items-center text-center gap-2">
-          <Text variant="h2" className="text-white">
+          <Text variant="h2">
             Comentários
           </Text>
           <Text variant="bodyLg" className="text-gray-400">
@@ -25,11 +25,11 @@ export default function Reviews() {
               <div className="flex flex-col h-full p-5 gap-5">
                 <div className="flex gap-3">
                   <div className="flex-center justify-center w-12 h-12 rounded-full">
-                    <AccountCircleIcon fontSize="large" className="text-white dark:text-(--color)" />
+                    <AccountCircleIcon fontSize="large" className=" dark:text-(--color)" />
                   </div>
 
                   <div className="flex flex-col">
-                    <Text variant="body" className="text-white">
+                    <Text variant="body">
                       {review.name}
                     </Text>
                     <Text variant="bodySm" className="text-gray-400">
@@ -43,7 +43,7 @@ export default function Reviews() {
                 </div>
 
                 <div className="flex flex-col gap-3 flex-1">
-                  <FormatQuoteIcon fontSize="large" className="text-white/40 dark:text-(--color)" />
+                  <FormatQuoteIcon fontSize="large" className=" dark:text-(--color)" />
 
                   <Text variant="body" className="text-gray-300">
                     {review.comment}

@@ -10,10 +10,10 @@ export default function About() {
           <div id="sobre">
             <Stack>
               <div className="flex-col flex-center">
-                <Text variant="h2" className="text-white">
+                <Text variant="h2">
                   SOBRE NÓS
                 </Text>
-                <Text variant="bodyLg" className="text-white">
+                <Text variant="bodyLg">
                   Mais do que comida, entregamos experiência.
                 </Text>
               </div>
@@ -32,10 +32,10 @@ export default function About() {
             </div>
             <div className="md:w-4/10">
               <div className="flex flex-col items-center justify-center text-center p-5 space-y-5">
-                <Text variant="h2" className="text-white">
+                <Text variant="h2">
                   Nossa essência em cada preparo
                 </Text>
-                <Text variant="body" className="text-white">
+                <Text variant="body">
                   Nascemos da paixão por transformar ingredientes simples em
                   experiências memoráveis. Cada detalhe do nosso processo — da
                   escolha dos ingredientes ao preparo — é pensado para entregar

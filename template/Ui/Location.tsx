@@ -13,7 +13,7 @@ export function Location() {
 
         <div className="w-full max-w-6xl flex flex-col gap-12">
           <div className="flex flex-col items-center md:items-start text-center md:text-left gap-3">
-            <Text variant="h2" className="text-white">
+            <Text variant="h2">
               Localização
             </Text>
             <Text variant="bodyLg" className="text-gray-400 max-w-md">
@@ -24,8 +24,6 @@ export function Location() {
           <div className="grid md:grid-cols-2 gap-8 items-stretch">
             <div className="flex flex-col gap-6">
               <div className="group flex flex-col gap-3 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 transition hover:bg-white/10 hover:scale-[1.01]">
-                <div className="flex items-center gap-2 text-white">
-                </div>
 
                 <Text variant="bodyLg" className="text-gray-400 text-sm">
                   Rua Exemplo, 123 <br />

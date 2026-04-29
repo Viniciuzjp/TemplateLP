@@ -11,15 +11,15 @@ export default function Footer() {
       <div className="flex max-md:flex-col gap-10">
         <div className="flex flex-col justify-between gap-10 w-full">
           <Stack>
-            <Text variant="h2" className="text-white">
+            <Text variant="h2">
               Estamos sempre por perto
             </Text>
-            <Text variant="bodySm" className="text-white">
+            <Text variant="bodySm">
               Porque boa comida merece estar sempre ao seu alcance.
             </Text>
           </Stack>
           <div className="flex flex-col">
-            <Text variant="body" className="text-white">
+            <Text variant="body">
               Nos siga em nossas redes sociais.
             </Text>
             <div className="flex gap-3">
@@ -49,7 +49,7 @@ export default function Footer() {
             <li>
               <Link href={"#hero"}>
                 {" "}
-                <Text variant="body" className="text-white">
+                <Text variant="body">
                   • Inicio
                 </Text>
               </Link>
@@ -57,7 +57,7 @@ export default function Footer() {
             <li>
               <Link href={"#sobre"}>
                 {" "}
-                <Text variant="body" className="text-white">
+                <Text variant="body">
                   • Sobre
                 </Text>
               </Link>
@@ -65,7 +65,7 @@ export default function Footer() {
             <li>
               <Link href={"#cardapio"}>
                 {" "}
-                <Text variant="body" className="text-white">
+                <Text variant="body">
                   • Cardapio
                 </Text>
               </Link>
@@ -73,7 +73,7 @@ export default function Footer() {
             <li>
               <Link href={"#comentarios"}>
                 {" "}
-                <Text variant="body" className="text-white">
+                <Text variant="body">
                   • Comentários
                 </Text>
               </Link>
@@ -81,7 +81,7 @@ export default function Footer() {
             <li>
               <Link href={"#localizacao"}>
                 {" "}
-                <Text variant="body" className="text-white">
+                <Text variant="body">
                   • Localização
                 </Text>
               </Link>
@@ -89,13 +89,13 @@ export default function Footer() {
           </ul>
         </div>
         <div className="flex flex-col gap-3 w-full">
-          <Text variant="h3" className="text-white">
+          <Text variant="h3">
             Localização
           </Text>
-          <Text variant="body" className="text-white">
+          <Text variant="body">
             São Paulo - SP
           </Text>
-          <Text variant="body" className="text-white">
+          <Text variant="body">
             Bragança Paulista, Parque dos Estados.
           </Text>
         </div>

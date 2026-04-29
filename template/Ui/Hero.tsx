@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <>
       <div id="hero" className="relative w-full h-227.5 mb-30">
-        <Image src="/front-view-burger-with-veggies-meat.jpg" alt="Banner" fetchPriority="high" loading="lazy" fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover" />
+        <Image src="/front-view-burger-with-veggies-meat.jpg" alt="Banner" fetchPriority="high" loading="lazy" fill className="object-cover" />
 
         <div className="absolute inset-0 bg-black/50" />
 

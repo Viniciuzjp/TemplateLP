@@ -27,7 +27,7 @@ export const Header = () => {
           border-b border-white/10
         "
       >
-        <div className="flex items-center gap-3 md:gap-6">
+        <div className="flex items-center gap-2 md:gap-6 max-sm:text-xs">
           <Link href="#sobre">
             <Text className="text-gray-300 hover:text-white transition">
               Sobre
@@ -50,11 +50,11 @@ export const Header = () => {
           </Link>
         </div>
 
-        <div className="flex items-center gap-4 ml-auto">
+        <div className="flex items-center gap-2 md:gap-4 ml-auto">
           <Link
             href="http://wa.me"
             className="
-              text-sm px-4 py-2
+              text-xs md:text-sm px-2 md:px-4 py-2
               rounded-full
               bg-white text-black
               font-medium

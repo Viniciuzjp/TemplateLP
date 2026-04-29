@@ -10,10 +10,10 @@ export default function Galery() {
         <div id="sobre" className="flex justify-center items-center">
           <Stack>
             <div className="flex flex-col items-center justify-center">
-              <Text variant="h2" className="text-white">
+              <Text variant="h2">
                 Galeria
               </Text>
-              <Text variant="bodyLg" className="text-white">
+              <Text variant="bodyLg">
                 Veja mais sobre nosso estabelecimento.
               </Text>
             </div>

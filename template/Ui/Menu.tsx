@@ -28,7 +28,7 @@ export const Menu = () => {
         <div className="absolute inset-0 -z-10 bg-linear-to-b from-transparent via-white/5 to-transparent" />
 
         <div className="flex flex-col items-center text-center gap-3">
-          <Text variant="h2" className="text-white">
+          <Text variant="h2">
             Cardápio
           </Text>
           <Text variant="bodyLg" className="text-gray-400 max-w-md">
@@ -77,7 +77,7 @@ export const Menu = () => {
 
               <div className="flex flex-col justify-between flex-1 p-4 gap-4">
                 <div className="flex flex-col gap-1">
-                  <Text className="text-white" variant="productPrice">
+                  <Text variant="productPrice">
                     {product.name}
                   </Text>
 
@@ -87,7 +87,7 @@ export const Menu = () => {
                 </div>
 
                 <div className="flex items-center justify-between">
-                  <Text className="text-white font-semibold">
+                  <Text className="font-semibold">
                     R$ {product.price.toFixed(2)}
                   </Text>
                 </div>

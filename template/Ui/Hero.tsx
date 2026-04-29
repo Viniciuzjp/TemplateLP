@@ -12,8 +12,8 @@ export default function Hero() {
 
         <div className="absolute inset-0 flex-center md:justify-start">
           <div className="flex flex-col items-center text-center md:items-start md:text-left px-4 md:px-12 max-w-xl space-y-3">
-            <h1 className="text-white text-2xl md:text-4xl font-bold">
-              <Text variant="h1">Sabor Que Conquista</Text>
+            <h1 className="text-2xl md:text-4xl font-bold">
+              <Text className="text-white" variant="h1">Sabor Que Conquista</Text>
             </h1>
             <Text variant="body" className="dark:text-white">
               Mais que uma refeição, uma experiência para compartilhar com quem você gosta.

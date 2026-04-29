@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <ThemeProvider>
-        <main className="flex flex-col dark:bg-(--bg)">
+        <main className="flex flex-col bg-(--bg)">
           <Header />
           <Hero />
           <Container size="xl">

@@ -31,7 +31,7 @@ export const Menu = () => {
           <Text variant="h2">
             Cardápio
           </Text>
-          <Text variant="bodyLg" className="text-gray-400 max-w-md">
+          <Text variant="bodyLg">
             Os sabores que fazem nossos clientes voltarem sempre
           </Text>
         </div>
@@ -57,13 +57,13 @@ export const Menu = () => {
           })}
         </div>
 
-        <div className="grid gap-4 md:gap-6 grid-cols-2 md:grid-cols-3">
+        <div className="grid gap-4 md:gap-6 grid-cols-2 max-sm:grid-cols-1 md:grid-cols-3">
           {filteredProducts.map((product: ProductsType) => (
             <Card
               key={product.id}
               className="group overflow-hidden rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition"
             >
-              <div className="relative w-full h-40 overflow-hidden">
+              <div className="relative w-full h-70 md:h-50 overflow-hidden">
                 <Image
                   src={product.image}
                   alt={product.name}
@@ -81,7 +81,7 @@ export const Menu = () => {
                     {product.name}
                   </Text>
 
-                  <Text className="text-neutral-800" variant="bodySm">
+                  <Text variant="bodySm">
                     {product.ingredients}
                   </Text>
                 </div>

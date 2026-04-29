@@ -9,7 +9,7 @@ export default function About() {
         <Section>
           <div id="sobre">
             <Stack>
-              <div className="flex-col flex-center">
+              <div className="flex-col flex-center text-center">
                 <Text variant="h2">
                   SOBRE NÓS
                 </Text>

@@ -15,7 +15,7 @@ export default function Hero() {
             <h1 className="text-2xl md:text-4xl font-bold">
               <Text className="text-white" variant="h1">Sabor Que Conquista</Text>
             </h1>
-            <Text variant="body" className="dark:text-white">
+            <Text variant="body" className="text-white">
               Mais que uma refeição, uma experiência para compartilhar com quem você gosta.
             </Text>
             <Button variant="primary" className="w-5/10 rounded-3xl text-transparent">Faça Seu Pedido</Button>

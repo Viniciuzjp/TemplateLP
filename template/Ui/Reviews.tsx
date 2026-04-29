@@ -25,7 +25,7 @@ export default function Reviews() {
               <div className="flex flex-col h-full p-5 gap-5">
                 <div className="flex gap-3">
                   <div className="flex-center justify-center w-12 h-12 rounded-full">
-                    <AccountCircleIcon fontSize="large" className=" dark:text-(--color)" />
+                    <AccountCircleIcon fontSize="large" className="text-(--color)" />
                   </div>
 
                   <div className="flex flex-col">
@@ -43,7 +43,7 @@ export default function Reviews() {
                 </div>
 
                 <div className="flex flex-col gap-3 flex-1">
-                  <FormatQuoteIcon fontSize="large" className=" dark:text-(--color)" />
+                  <FormatQuoteIcon fontSize="large" className=" text-(--color)" />
 
                   <Text variant="body">
                     {review.comment}

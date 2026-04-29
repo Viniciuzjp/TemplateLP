@@ -25,19 +25,19 @@ export default function Footer() {
             <div className="flex gap-3">
               <Link href={"#location"}>
                 <InstagramIcon
-                  className="dark:text-(--color)"
+                  className="text-(--color)"
                   fontSize="large"
                 />
               </Link>
               <Link href={"#location"}>
                 <FacebookIcon
-                  className="dark:text-(--color)"
+                  className="text-(--color)"
                   fontSize="large"
                 />
               </Link>
               <Link href={"#location"}>
                 <WhatsAppIcon
-                  className="dark:text-(--color)"
+                  className="text-(--color)"
                   fontSize="large"
                 />
               </Link>

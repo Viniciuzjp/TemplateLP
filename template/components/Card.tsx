@@ -1,12 +1,12 @@
 type CardType = {
-    children?: React.ReactNode,
-    className?: string
+  children?: React.ReactNode,
+  className?: string
 }
 
-export const Card = ({className, children}: CardType) => {
-    return (
-        <div className={`flex flex-col w-full bg-(--card-bg) dark:bg-(--card-bg) rounded-md p-5 ${className}`}>
-            {children}
-        </div>
-    )
-}
+export const Card = ({ className, children }: CardType) => {
+  return (
+    <div className={`flex flex-col w-full bg-[var(--card-bg)] rounded-md p-5 ${className}`}>
+      {children}
+    </div>
+  );
+};

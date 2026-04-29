@@ -1,27 +1,27 @@
 export const ImagesGalery = [
   {
     id: 1,
-    src: "/image1.webp",
+    src: "/local5.jpg",
     alt: "galery",
   },
   {
     id: 2,
-    src: "/image1.webp",
+    src: "/local4.jpg",
     alt: "galery"
   },
   {
     id: 3,
-    src: "/image1.webp",
+    src: "/local.jpg",
     alt: "galery"
   },
   {
     id: 4,
-    src: "/image1.webp",
+    src: "/local2.jpg",
     alt: "galery"
   },
   {
     id: 5,
-    src: "/image1.webp",
+    src: "/local3.jpg",
     alt: "galery"
   }
 ];

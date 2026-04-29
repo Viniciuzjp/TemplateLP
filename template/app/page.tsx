@@ -7,22 +7,25 @@ import { Container } from "@av-digital/components";
 import { Header } from "@/components/Header";
 import Galery from "@/Ui/Galery";
 import Footer from "@/Ui/Footer";
+import { ThemeProvider } from "@/components/Context/themeContext";
 
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col bg-[#141414]">
-        <Header />
-        <Hero />
-        <Container size="xl">
-          <About />
-          <Menu />
-          <Galery />
-          <Feedback />
-          <Location />
-          <Footer />
-        </Container>
-      </main>
+      <ThemeProvider>
+        <main className="flex flex-col dark:bg-(--bg)">
+          <Header />
+          <Hero />
+          <Container size="xl">
+            <About />
+            <Menu />
+            <Galery />
+            <Feedback />
+            <Location />
+            <Footer />
+          </Container>
+        </main>
+      </ThemeProvider>
     </>
   );
 }

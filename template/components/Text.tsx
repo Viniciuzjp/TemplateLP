@@ -7,6 +7,6 @@ type TextType = {
 }
 export const Text = ({variant = "body", children, className}: TextType) => {
     return (
-        <div className={`${Typography[variant]} ${className}`}>{children}</div>
+        <div className={`${Typography[variant]} ${className} text-white dark:text-(--color)`}>{children}</div>
     )
 }

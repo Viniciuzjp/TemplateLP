@@ -1,48 +1,55 @@
 import { Text } from "@/components/Text";
 import Image from "next/image";
-import { Container, Section, Stack } from "@av-digital/components";
+import { Section, Stack } from "@av-digital/components";
 
 export default function About() {
   return (
     <>
-    <div className="mb-30">
-          <Section>
-            <div id="sobre" className="flex justify-center items-center">
-              <Stack>
-                <div className="flex flex-col items-center justify-center">
+      <div className="mb-30">
+        <Section>
+          <div id="sobre">
+            <Stack>
+              <div className="flex-col flex-center">
                 <Text variant="h2" className="text-white">
                   SOBRE NÓS
                 </Text>
-                <Text variant="bodyLg" className="text-white">Mais do que comida, entregamos experiência.</Text>
-                </div>
-              </Stack>
-            </div>
-            <div className="flex max-md:flex-col w-full items-center justify-center">
-              <div className="md:w-6/10 w-full">
-                <Image
-                  src={"/img3.png"}
-                  alt="banner"
-                  width={500}
-                  height={500}
-                  className="object-cover"
-                ></Image>
+                <Text variant="bodyLg" className="text-white">
+                  Mais do que comida, entregamos experiência.
+                </Text>
               </div>
-              <div className="md:w-4/10">
-                <div className="p-5 space-y-5">
-                  <Text variant="h2" className="text-white">
-                    LOREM IPSUM DOLOR
-                  </Text>
-                  <Text variant="body" className="text-white">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Atque facilis, optio nihil saepe dolores assumenda sint a
-                    ullam, eius cupiditate suscipit asperiores laboriosam
-                    repellendus quibusdam earum eum maiores voluptatibus vitae.
-                  </Text>
-                </div>
-              </div>
-            </div>
-          </Section>
+            </Stack>
           </div>
+          <div className="flex max-md:flex-col w-full items-center justify-center">
+            <div className="flex-center md:w-6/10 w-full">
+              <Image
+                src="/img3.png"
+                alt="banner"
+                width={400}
+                height={380}
+                sizes="(max-width: 768px) 100vw, 380px"
+                className="object-cover"
+              />
+            </div>
+            <div className="md:w-4/10">
+              <div className="flex flex-col items-center justify-center text-center p-5 space-y-5">
+                <Text variant="h2" className="text-white">
+                  Nossa essência em cada preparo
+                </Text>
+                <Text variant="body" className="text-white">
+                  Nascemos da paixão por transformar ingredientes simples em
+                  experiências memoráveis. Cada detalhe do nosso processo — da
+                  escolha dos ingredientes ao preparo — é pensado para entregar
+                  sabor, qualidade e consistência. Mais do que uma hamburgueria,
+                  somos um espaço feito para reunir pessoas, compartilhar
+                  momentos e criar memórias. Aqui, cada pedido carrega um pouco
+                  da nossa essência: dedicação, autenticidade e amor pelo que
+                  fazemos.
+                </Text>
+              </div>
+            </div>
+          </div>
+        </Section>
+      </div>
     </>
   );
 }

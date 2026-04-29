@@ -8,6 +8,15 @@ export const ProductFilter = [
   { name: "saudavel" },
 ];
 
+export type ProductsType = {
+  id: number,
+  name: string
+  price: number,
+  category:string,
+  ingredients: string,
+  image: string
+}
+
 export const products = [
   {
     id: 1,
@@ -16,7 +25,7 @@ export const products = [
     category: "burger",
     ingredients:
       "Pão brioche, hambúrguer 150g, queijo cheddar, alface, tomate e molho especial",
-    image: "/products/burger-classico.jpg",
+    image: "/img.png",
   },
   {
     id: 2,
@@ -25,7 +34,7 @@ export const products = [
     category: "burger",
     ingredients:
       "Pão brioche, hambúrguer 180g, queijo prato, bacon crocante, cebola caramelizada e molho barbecue",
-    image: "/products/burger-bacon.jpg",
+    image: "/img3.png",
   },
   {
     id: 3,
@@ -34,7 +43,7 @@ export const products = [
     category: "pizza",
     ingredients:
       "Massa artesanal, molho de tomate, mussarela, manjericão fresco e azeite",
-    image: "/products/pizza-margherita.jpg",
+    image: "/pizza.png",
   },
   {
     id: 4,
@@ -43,7 +52,7 @@ export const products = [
     category: "pizza",
     ingredients:
       "Massa artesanal, molho de tomate, calabresa, cebola e mussarela",
-    image: "/products/pizza-calabresa.jpg",
+    image: "/pizza2.png",
   },
   {
     id: 5,
@@ -51,7 +60,7 @@ export const products = [
     price: 14.9,
     category: "acompanhamento",
     ingredients: "Batata, sal e óleo vegetal",
-    image: "/products/batata-frita.jpg",
+    image: "/batata.png",
   },
   {
     id: 6,
@@ -59,7 +68,7 @@ export const products = [
     price: 18.9,
     category: "bebida",
     ingredients: "Leite, sorvete de chocolate, calda de chocolate e chantilly",
-    image: "/products/milkshake-chocolate.jpg",
+    image: "/milkshake.png",
   },
   {
     id: 7,
@@ -67,7 +76,7 @@ export const products = [
     price: 21.9,
     category: "sobremesa",
     ingredients: "Açaí, banana, granola e leite condensado",
-    image: "/products/acai.jpg",
+    image: "/açai.png",
   },
   {
     id: 8,
@@ -75,7 +84,7 @@ export const products = [
     price: 19.9,
     category: "saudavel",
     ingredients: "Alface, rúcula, tomate cereja, pepino e molho especial",
-    image: "/products/salada.jpg",
+    image: "/salada.png",
   },
   {
     id: 9,
@@ -83,6 +92,6 @@ export const products = [
     price: 6.9,
     category: "bebida",
     ingredients: "Bebida gaseificada, açúcar e aromatizantes",
-    image: "/products/refrigerante.jpg",
+    image: "/lata.png",
   },
 ];

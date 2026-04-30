@@ -23,19 +23,19 @@ export default function Footer() {
               Nos siga em nossas redes sociais.
             </Text>
             <div className="flex gap-3">
-              <Link href={"#location"}>
+              <Link href={"https://instagram.com"}>
                 <InstagramIcon
                   className="text-(--color)"
                   fontSize="large"
                 />
               </Link>
-              <Link href={"#location"}>
+              <Link href={"https://facebook.com"}>
                 <FacebookIcon
                   className="text-(--color)"
                   fontSize="large"
                 />
               </Link>
-              <Link href={"#location"}>
+              <Link href={"https://wa.me"}>
                 <WhatsAppIcon
                   className="text-(--color)"
                   fontSize="large"

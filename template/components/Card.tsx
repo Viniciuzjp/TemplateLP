@@ -5,7 +5,7 @@ type CardType = {
 
 export const Card = ({ className, children }: CardType) => {
   return (
-    <div className={`flex flex-col w-full bg-(--card-bg) rounded-md p-5 ${className}`}>
+    <div className={`flex flex-col w-full bg-(--card-bg) p-5 group overflow-hidden rounded-2xl  backdrop-blur-md border border-white/10 hover:bg-white/10 transition ${className}`}>
       {children}
     </div>
   );

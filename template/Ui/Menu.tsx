@@ -61,7 +61,7 @@ export const Menu = () => {
           {filteredProducts.map((product: ProductsType) => (
             <Card
               key={product.id}
-              className="group overflow-hidden rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition"
+              className=""
             >
               <div className="relative w-full h-70 md:h-50 overflow-hidden">
                 <Image
